@@ -358,7 +358,13 @@ a{
     font-weight: 600;
     color: rgb(255,255,255);
     z-index:10;
+    display: none;
   }
+
+  .project-card:hover .project-number{
+    display: block;
+    transition: 
+  } 
 
   .project-number-right{
     right: -40px;
@@ -399,4 +405,59 @@ a{
 
   .project-skill{
     width: 40px;
+  }
+
+  .project-heading{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+
+  .project-subHeading{
+    width: 70%;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  .btn-group{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+  }
+
+  .btn-project:hover{
+    border: none;
+  }
+
+  .icon{
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+  }
+
+  .icon:hover{ 
+    color: var(--bgOrange);
+    transition: 0.4s;
+  }
+
+  .project-card:hover .project-content{
+    transform: scale(1.1)
+  }
+
+  #project1{
+    background-image: url(Project1.png);
+  }
+
+  #project2{
+    margin-left: 120px;
+    background-image: url(Project2.png);
+  }
+
+  #project3{
+    background-image: url(Project3.png);
+  }
+
+  #project4{
+    margin-left: 120px;
+    background-image: url(Project4.png);
   }
